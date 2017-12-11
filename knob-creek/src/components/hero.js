@@ -4,7 +4,15 @@ class Hero extends React.Component {
   render() {
     return (
       <div className="hero-component">
-        Please edit src/components///HeroComponent.js to update this component!
+      	<div class="hero-bg">
+	        <div class="container row">
+	            <div class="half column hero-text">
+	                <h1 class="header--h1">Maple Never Tasted So Good</h1>
+	                <p>We blend this bourbon with natural smoked maple flavors for a unique, smoky sweetness. Full-bodied, inviting maple notes that lift to smoke and are complemented with rich vanilla and caramel. Smoked hickory and maple wood, with hints of earthy grains.
+	                </p>
+	            </div>
+	        </div>
+	    </div>
       </div>
     );
   }

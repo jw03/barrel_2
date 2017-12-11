@@ -1,20 +1,36 @@
 body {
-	// font-weight: lighter;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
+    font-weight: 300;
 }
 
-p { margin-top: 0; }
+p {
+	margin-top: 0;
+	font-size: 1.6rem;
+}
 
 // Lists
 // -------------------------
 
-// Unordered and Ordered lists
 ul {
     list-style: none;
     padding: 0;
+}
+
+.header--h1 {
+	font-size: 7rem;
+	font-weight: 400;
+	margin-bottom: 10px;
+	@media screen and (max-width: $breakpoint-l){
+		font-size: 6rem;
+	}
+	@media screen and (max-width: $breakpoint-md) {
+		font-size: 3.5rem;
+		text-align: center;
+	}
 }
 
 .text-sm { font-size: 1.3rem; }

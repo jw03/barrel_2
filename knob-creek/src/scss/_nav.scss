@@ -3,7 +3,7 @@
     background-color: #1e1e1e;
     padding: 19px 34px 19px 54px;
     position: relative;
-    @media screen and (max-width: $breakpoint-md) {
+    @media screen and (max-width: $breakpoint-l) {
         padding: 19px;
     }
 }
