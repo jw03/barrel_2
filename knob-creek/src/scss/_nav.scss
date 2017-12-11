@@ -1,0 +1,66 @@
+.navbar {
+    max-width: 100%;
+    background-color: #1e1e1e;
+    padding: 19px 34px 19px 54px;
+    position: relative;
+    @media screen and (max-width: $breakpoint-md) {
+        padding: 19px;
+    }
+}
+
+.navbar-content{
+    @media screen and (min-width: $breakpoint-xl) {
+        margin: auto;
+        max-width: 2000px;
+    }
+}
+
+.navbar-brand { height: 38px; }
+
+.navbar-social {
+    float: right;
+        li {
+            display: inline-block;
+        }
+        a {
+            padding-left: 1rem;
+        i {
+            color: $brand-color-tan;
+            font-size: 2.4rem;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+}
+
+.navbar-sponsored {
+    background-color: $brand-color-tan;
+    height: 100%;
+    padding: 0.5rem 0;
+}
+
+.is_sponsored {
+    height: 3.8rem;
+    position: absolute;
+    left: 50%;
+    transform: translate( -50%, 0);
+    outline: 3px solid $brand-color-tan;
+    outline-offset: 5px;
+}
+
+//footer ----
+
+.navbar-social-share {
+    text-transform: uppercase;
+    color: $brand-color-tan;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.navbar__footer {
+    .nav-items--social { float: left; }
+    .brand-logo { float: right; }
+}
