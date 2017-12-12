@@ -20,16 +20,33 @@ ul {
     padding: 0;
 }
 
-.header--h1 {
+.heading--h1 {
 	font-size: 7rem;
 	font-weight: 400;
 	margin-bottom: 10px;
-	@media screen and (max-width: $breakpoint-l){
+	@media screen and (max-width: $breakpoint-l) {
 		font-size: 6rem;
 	}
 	@media screen and (max-width: $breakpoint-md) {
 		font-size: 3.5rem;
 		text-align: center;
+	}
+}
+
+.heading--h2 {
+	font-size: 3.5rem;
+	@media screen and (max-width: $breakpoint-md) {
+		font-size: 1.9rem;
+	}
+}
+
+.subheading--h2 {
+	font-size: 2.8rem;
+	@media screen and (max-width: $breakpoint-l) {
+		font-size: 2.1rem;
+	}
+	@media screen and (max-width: $breakpoint-md) {
+		font-size: 1.8rem;
 	}
 }
 

@@ -1,0 +1,75 @@
+.featuredarticle-component {
+	background-color: $brand-color-tan;
+	padding-bottom: 60px;
+}
+
+.article-featured {
+	margin-top: -25vh;
+	background-color: $white;
+	position: relative;
+	z-index: 2;
+}
+
+.article-featured-description {
+	height: 100%;
+	text-align: center;
+	margin: auto;
+	width: 70%;
+	padding: 100px 0;
+	position: relative;
+	img {
+		height: 26px;
+	    width: 29px;
+	}
+}
+
+.article-featured-image {
+	background-size: cover;
+	background-position: center center;
+	min-height: 480px;
+	max-height: 100%;
+	width: 100%;
+	&--1 {
+		background-image: url('../../src/images/pour-mug.jpg');
+	}
+}
+
+
+.article-item--description {
+	text-align: center;
+	padding: 16px 0 30px;
+	position: absolute;
+	background-color: #f3f1ed;
+	bottom: 0;
+	width: 100%;
+
+	img	 {
+		height: 26px;
+	    width: 29px;
+	    background-color: #f3f1ed;
+	    fill: #bd3131;
+	}
+}
+
+article {
+	a {
+		text-decoration: none;
+		color: inherit;
+		font-weight: 600;
+		&:hover .cta {
+			color: $brand-accent;
+		}
+	}
+	.date {
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+	.teaser {
+		font-weight: lighter;
+	}
+	.cta {
+		color: $brand-color-red;
+		font-weight: 600;
+		margin: 0;
+	}
+}
