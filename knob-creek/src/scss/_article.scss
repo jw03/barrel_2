@@ -76,3 +76,91 @@ article {
 		margin: 0;
 	}
 }
+
+// -----------------
+
+.article-item--image {
+	background-size: cover;
+	background-position: center center;
+	height: 580px;
+	&--1 {
+		background-image: url("../../src/images/www.knobcreek.com-1550031134660845.jpg");
+	}
+	&--2 {
+		background-image: url("../../src/images/www.knobcreek.com-1564585437648699.jpg");
+	}
+	&--3 {
+		background-image: url("../../src/images/www.knobcreek.com-1550246487292757.jpg");
+	}
+	&--4 {
+		background-image: url("../../src/images/www.knobcreek.com-1550164189475220.jpg");
+	}
+	&--5 {
+		background-image: url("../../src/images/www.knobcreek.com-1550293000153014.jpg");
+	}
+	&--6 {
+		background-image: url("../../src/images/www.knobcreek.com-1550664938574687.jpg");
+	}
+	&--7 {
+		background-image: url("../../src/images/www.knobcreek.com-1550653084056276.jpg");
+	}
+	&--8 {
+		background-image: url("../../src/images/www.knobcreek.com-1550660375610157.jpg");
+	}
+	&--9 {
+		background-image: url("../../src/images/www.knobcreek.com-1550319714280280.jpg");
+	}
+}
+
+.article-item--wrapper {
+	&:hover {
+		.article-item--description, .icon-container, svg {
+			transition: background-color 0.3s ease;
+			background-color: #1e1e1e;
+			p, h2 {
+				color: $white;
+			}
+			.cta {
+				color: $brand-color-red;
+			}
+		}
+		.article-item--image{
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				background-image: linear-gradient(
+			      rgba(0, 0, 0, 0.1),
+			      rgba(0, 0, 0, 0.1)
+			    );
+			    opacity: 1;
+			}
+		}
+	}
+}
+
+
+.article-item {
+	background-color: $brand-color-tan--light;
+	position: relative;
+
+}
+
+.icon-container {
+	position: absolute;
+    top: 3px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    padding: 17px;
+    background-color: #f3f1ed;
+}
+
+a:visited { text-decoration: none; color: inherit; }
+a:hover { text-decoration: none; color: inherit; }
+a:focus { text-decoration: none; color: inherit; }
+a:hover, a:active { text-decoration: none; color: inherit; }
+
