@@ -10,6 +10,12 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	margin-top: 0;
 	font-size: 1.6rem;
+	@media screen and (max-width: $breakpoint-l) {
+		font-size: 1.5rem;
+	}
+	@media screen and (max-width: $breakpoint-l) {
+		font-size: 1.4rem;
+	}
 }
 
 // Lists
@@ -29,6 +35,8 @@ ul {
 	}
 	@media screen and (max-width: $breakpoint-md) {
 		font-size: 3.5rem;
+	}
+	@media screen and (max-width: $breakpoint-sm) {
 		text-align: center;
 	}
 }

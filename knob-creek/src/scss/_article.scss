@@ -8,6 +8,9 @@
 	background-color: $white;
 	position: relative;
 	z-index: 2;
+	@media screen and (max-width: $breakpoint-sm) {
+		margin-top: -9vh;
+	}
 }
 
 .article-featured-description {
