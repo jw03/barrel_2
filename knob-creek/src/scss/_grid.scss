@@ -18,8 +18,6 @@ html {
   clear: both;
 }
 
-
-
 .col {
   flex: 1;
 }
@@ -27,5 +25,21 @@ html {
 @media only screen and (min-width: $breakpoint-sm) {
   .flex-grid {
     display: flex;
+  }
+}
+
+.article-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-thirds {
+  flex-basis: 100%;
+  @media only screen and (min-width: $breakpoint-xs) {
+    flex-basis: 45%
+  }
+  @media only screen and (min-width: $breakpoint-sm) {
+    flex-basis: 32%;
   }
 }
