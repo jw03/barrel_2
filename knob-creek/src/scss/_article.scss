@@ -77,6 +77,17 @@ article {
 	}
 }
 
+.img-correct {
+	position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
+    min-width: 100%;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+}
+
 // -----------------
 
 .article-item--image {
@@ -146,6 +157,8 @@ article {
 .article-item {
 	background-color: $brand-color-tan--light;
 	position: relative;
+	width: 100%;
+    height: 100%;
 
 }
 
