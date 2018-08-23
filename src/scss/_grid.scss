@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 88%;
+  margin: auto;
+}
+
+.row::before,
+.row::after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+
+.col {
+  flex: 1;
+}
+
+@media only screen and (min-width: $breakpoint-sm) {
+  .flex-grid {
+    display: flex;
+  }
+}
+
+.article-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-thirds {
+  flex-basis: 100%;
+  @media only screen and (min-width: $breakpoint-xs) {
+    flex-basis: 45%
+  }
+  @media only screen and (min-width: $breakpoint-sm) {
+    flex-basis: 32%;
+  }
+}

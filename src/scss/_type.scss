@@ -1,0 +1,66 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    font-weight: 300;
+}
+
+p {
+	margin-top: 0;
+	font-size: 1.6rem;
+	@media screen and (max-width: $breakpoint-l) {
+		font-size: 1.5rem;
+	}
+	@media screen and (max-width: $breakpoint-l) {
+		font-size: 1.4rem;
+	}
+}
+
+// Lists
+// -------------------------
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.heading--h1 {
+	font-size: 7rem;
+	font-weight: 400;
+	margin-bottom: 10px;
+	@media screen and (max-width: $breakpoint-l) {
+		font-size: 6rem;
+	}
+	@media screen and (max-width: $breakpoint-md) {
+		font-size: 3.5rem;
+	}
+	@media screen and (max-width: $breakpoint-sm) {
+		text-align: center;
+	}
+}
+
+.heading--h2 {
+	font-size: 3.5rem;
+	@media screen and (max-width: $breakpoint-md) {
+		font-size: 1.9rem;
+	}
+}
+
+.subheading--h2 {
+	font-size: 2.8rem;
+	@media screen and (max-width: $breakpoint-l) {
+		font-size: 2.1rem;
+	}
+	@media screen and (max-width: $breakpoint-md) {
+		font-size: 1.8rem;
+	}
+}
+
+.text-sm { font-size: 1.3rem; }
+.text-md { font-size: 1.8rem; }
+.text-lg { font-size: 2.2rem; }
+
+.text-center { text-align: center; }
+
