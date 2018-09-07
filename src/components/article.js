@@ -53,15 +53,10 @@ class Article extends React.Component {
               </div>
             </div>
 
-
-
-
-
-
             <div className="col-thirds article-spacer">
               <article className="article-item">
                 <a className="article-item--wrapper" href="#">
-                  <div className="article-item--image article-item--image--1"></div>
+                  <div className="article-item--image article-item--image--2"></div>
                   <div className="article-item--description">
                     <div className="icon-container">
                       <img src={IconVideo} alt="article icon" />
@@ -76,7 +71,7 @@ class Article extends React.Component {
             <div className="col-thirds article-spacer">
               <article className="article-item">
                 <a className="article-item--wrapper" href="#">
-                  <div className="article-item--image article-item--image--1"></div>
+                  <div className="article-item--image article-item--image--3"></div>
                   <div className="article-item--description">
                     <div className="icon-container">
                       <img src={IconGlass} alt="article icon" />
@@ -91,7 +86,7 @@ class Article extends React.Component {
             <div className="col-thirds article-spacer">
               <article className="article-item">
                 <a className="article-item--wrapper" href="#">
-                  <div className="article-item--image article-item--image--1"></div>
+                  <div className="article-item--image article-item--image--4"></div>
                   <div className="article-item--description">
                     <div className="icon-container">
                       <img src={IconVideo} alt="article icon" />
@@ -107,7 +102,7 @@ class Article extends React.Component {
             <div className="col-thirds article-spacer">
               <article className="article-item">
                 <a className="article-item--wrapper" href="#">
-                  <div className="article-item--image article-item--image--2">
+                  <div className="article-item--image article-item--image--5">
                   </div>
                   <div className="article-item--description">
                     <div className="icon-container">
@@ -124,7 +119,7 @@ class Article extends React.Component {
             <div className="col-thirds article-spacer">
               <article className="article-item">
                 <a className="article-item--wrapper" href="#">
-                  <div className="article-item--image article-item--image--3">
+                  <div className="article-item--image article-item--image--6">
                   </div>
                   <div className="article-item--description">
                     <div className="icon-container">
@@ -141,7 +136,7 @@ class Article extends React.Component {
             <div className="col-thirds article-spacer">
               <article className="article-item">
                 <a className="article-item--wrapper" href="#">
-                  <div className="article-item--image article-item--image--1"></div>
+                  <div className="article-item--image article-item--image--7"></div>
                   <div className="article-item--description">
                     <div className="icon-container">
                       <img src={IconArticle} alt="article icon" />
@@ -157,7 +152,7 @@ class Article extends React.Component {
             <div className="col-thirds article-spacer">
               <article className="article-item">
                 <a className="article-item--wrapper" href="#">
-                  <div className="article-item--image article-item--image--1"></div>
+                  <div className="article-item--image article-item--image--8"></div>
                   <div className="article-item--description">
                     <div className="icon-container">
                       <img src={IconGlass} alt="article icon" />
@@ -173,7 +168,7 @@ class Article extends React.Component {
             <div className="col-thirds article-spacer">
               <article className="article-item">
                 <a className="article-item--wrapper" href="#">
-                  <div className="article-item--image article-item--image--1"></div>
+                  <div className="article-item--image article-item--image--9"></div>
                   <div className="article-item--description">
                     <div className="icon-container">
                       <img src={IconGallery} alt="article icon" />
