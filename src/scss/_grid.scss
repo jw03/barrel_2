@@ -6,6 +6,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .container {
   max-width: 88%;
   margin: auto;
@@ -36,10 +40,10 @@ html {
 
 .col-thirds {
   flex-basis: 100%;
-  @media only screen and (min-width: $breakpoint-xs) {
-    flex-basis: 45%
-  }
   @media only screen and (min-width: $breakpoint-sm) {
+    flex-basis: 45%;
+  }
+  @media only screen and (min-width: $breakpoint-l) {
     flex-basis: 32%;
   }
 }
