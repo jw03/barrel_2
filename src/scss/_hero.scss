@@ -1,6 +1,6 @@
 .hero-bg {
     background-image: url('../../src/images/www.knobcreek.com-1293609732325191.jpg');
-    height: 100vh;
+    // height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,6 +29,10 @@
 .hero-text {
     color: $white;
     margin-top: 15vh;
+    padding-bottom: 300px;
+    @media screen and (max-width: $breakpoint-sm) {
+        padding-bottom: 30px;
+    }
     p {
         opacity: 0.7;
     }
