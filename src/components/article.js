@@ -22,7 +22,7 @@ class Article extends React.Component {
 
                   <div className="article-item--description">
                     <div className="icon-container">
-                      <img src={IconArticle} alt="article icon" />
+                      <img src={IconArticle} alt="article icon" class="icon icon--article" />
                     </div>
                     <p className="date">November 10</p>
                     <h2>This Creek Runs Full, Making Every Glass Count</h2>
@@ -42,7 +42,7 @@ class Article extends React.Component {
                 <div className="article-item--image article-item--image--1"></div>
                   <div className="article-item--description">
                     <div className="icon-container">
-                      <img src={IconArticle} alt="article icon" />
+                      <img src={IconArticle} alt="article icon" class="icon icon--article" />
                     </div>
                     <p className="date">November 10</p>
                     <h2>This Creek Runs Full, Making Every Glass Count</h2>
@@ -59,7 +59,7 @@ class Article extends React.Component {
                   <div className="article-item--image article-item--image--2"></div>
                   <div className="article-item--description">
                     <div className="icon-container">
-                      <img src={IconVideo} alt="article icon" />
+                      <img src={IconVideo} alt="article icon" class="icon icon--video" />
                     </div>
                     <p className="date">November 01</p>
                     <h2>Celebrating Knob Creek's 25th Anniversary</h2>
@@ -74,7 +74,7 @@ class Article extends React.Component {
                   <div className="article-item--image article-item--image--3"></div>
                   <div className="article-item--description">
                     <div className="icon-container">
-                      <img src={IconGlass} alt="article icon" />
+                      <img src={IconGlass} alt="article icon" class="icon icon--glass" />
                     </div>
                     <p className="date">October 30</p>
                     <h2>The Single Barrel Experience</h2>
@@ -89,7 +89,7 @@ class Article extends React.Component {
                   <div className="article-item--image article-item--image--4"></div>
                   <div className="article-item--description">
                     <div className="icon-container">
-                      <img src={IconVideo} alt="article icon" />
+                      <img src={IconVideo} alt="article icon" class="icon icon--video" />
                     </div>
                     <p className="date">October 20</p>
                     <h2>Make No Small Plans. Drink No Small Bourbon</h2>
@@ -106,7 +106,7 @@ class Article extends React.Component {
                   </div>
                   <div className="article-item--description">
                     <div className="icon-container">
-                      <img src={IconArticle} alt="article icon" />
+                      <img src={IconArticle} alt="article icon" class="icon icon--article" />
                     </div>
                     <p className="date">October 10</p>
                     <h2>There's No Faking Flavor: It Has To Be Earned</h2>
@@ -123,7 +123,7 @@ class Article extends React.Component {
                   </div>
                   <div className="article-item--description">
                     <div className="icon-container">
-                      <img src={IconGallery} alt="article icon" />
+                      <img src={IconGallery} alt="article icon" class="icon icon--gallery" />
                     </div>
                     <p className="date">October 05</p>
                     <h2>Learn About Pre-Prohibition Style Whiskey</h2>
@@ -139,7 +139,7 @@ class Article extends React.Component {
                   <div className="article-item--image article-item--image--7"></div>
                   <div className="article-item--description">
                     <div className="icon-container">
-                      <img src={IconArticle} alt="article icon" />
+                      <img src={IconArticle} alt="article icon" class="icon icon--article" />
                     </div>
                     <p className="date">September 30</p>
                     <h2>About Our Master Distiller Booker Noe</h2>
@@ -155,7 +155,7 @@ class Article extends React.Component {
                   <div className="article-item--image article-item--image--8"></div>
                   <div className="article-item--description">
                     <div className="icon-container">
-                      <img src={IconGlass} alt="article icon" />
+                      <img src={IconGlass} alt="article icon" class="icon icon--glass" />
                     </div>
                     <p className="date">September 18</p>
                     <h2>About Our Master Distiller Booker Noe</h2>
@@ -171,7 +171,7 @@ class Article extends React.Component {
                   <div className="article-item--image article-item--image--9"></div>
                   <div className="article-item--description">
                     <div className="icon-container">
-                      <img src={IconGallery} alt="article icon" />
+                      <img src={IconGallery} alt="article icon" class="icon icon--gallery" />
                     </div>
                     <p className="date">September 10</p>
                     <h2>Unmistakable Richness And Signature Sweetness</h2>
